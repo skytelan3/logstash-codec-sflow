@@ -1,0 +1,6 @@
+sudo apt-get update
+sudo apt-get install ruby-bundler
+bundle install
+git clone https://github.com/skytelan3/logstash-codec-sflow
+cd logstash-codec-sflow
+gem build git clone https://github.com/skytelan3/logstash-codec-sflow
