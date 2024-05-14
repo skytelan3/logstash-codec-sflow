@@ -25,5 +25,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'bindata', ['~> 2.4']
   s.add_runtime_dependency 'lru_redux', ['~> 1.1']
   s.add_runtime_dependency 'snmp', ['~> 1.2']
+  s.add_runtime_dependency 'logstash-output-tcp', ['~> 0']
   s.add_development_dependency 'logstash-devutils', ['~> 1.3']
 end
